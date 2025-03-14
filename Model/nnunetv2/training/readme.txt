@@ -1,0 +1,9 @@
+nnUNetTrainer2：协同优化
+    nnUNetTrainer0：双分支训练
+    nnUNetTrainer1：#双分支，但是共享上采样
+    nnUNetTrainer2：#上采样不共享+优化
+    nnUNetTrainer3：#上采样最后一个不共享（已经修改为nnUNetTrainer0+第一级编码器不共享）
+nnUNetTrainer3：nnUNetTrainer2协同优化后进行分支逐级优化
+    nnUNetTrainer0a：nnUNetTrainer0协同训练后，修改128->160。先训练分支2
+    nnUNetTrainer3b：nnUNetTrainer0协同训练后，128,先训练分支1(3a)
+    nnUNetTrainer4b：nnUNetTrainer1协同训练后，128,先训练分支1（4a）

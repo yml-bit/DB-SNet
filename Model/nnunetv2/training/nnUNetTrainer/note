@@ -1,0 +1,22 @@
+nnUNetTrainerLightMUNet#并非轻量级模型
+nnUNetTrainerUMambaEnc#mamba用于每个编码层，在96x160x160path 大小下也被提示超出内存
+nnUNetTrainerUxLSTMEncNoAMP
+nnUNetTrainerMaCNN1：mamba+Mednext     #up add,Mednext原始上采用
+nnUNetTrainerMaCNN2：mamba+Mednext+up  #up concaten
+nnUNetTrainerMaCNN3：mamba+Mednext+up size:96->128  #调整输入patch  z轴的size
+nnUNetTrainerMaCNN4：mamba+Mednext+up size:96->128+窗宽窗位 #调整输入patch  z轴的size+窗宽窗位
+nnUNetTrainerAorta1：多尺度stem，注意，和project2中的不是同一个模型，这里没有用注意力，仅仅对输入stem进行调整
+nnUNetTrainer：nnunet
+nnUNetTrainerMednext：Mednext
+nnUNetTrainerNnformer
+nnUNetTrainerSegMamba
+nnUNetTrainerSegResNet
+nnUNetTrainerSwinUNETR
+nnUNetTrainerUNETR
+nnUNetTrainerUXnet
+nnUNetTrainerUMambaBot
+nnUNetTrainerUxLSTMBot
+
+nnUNetTrainerunet：其实就是nnUNetTrainer，这里仅作为备份
+nnUNetTrainerNew：Mednext调整了通道+bottleneck调整，但是未训练测试
+nnUNetTrainers:nnUNetTrainer的sequence 模型，最初是用于nnUNetTrainerUxLSTMBot设计，想利用上下文信息

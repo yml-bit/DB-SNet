@@ -1,0 +1,21 @@
+nnUNetTrainerMednext4b    hnnk
+[[10  0  0  0  1]
+ [ 0 10  0  0  0]
+ [ 0  0  5  0  0]
+ [ 0  0  0  2  0]
+ [ 2  3  1  3 20]]
+
+nnUNetTrainerMednext4b    lz
+[[60  3  0  3 16]
+ [ 3 22  0  0  1]
+ [ 0  0 20  0  1]
+ [ 2  0  0  3  0]
+ [ 1  2  0  3 76]]
+
+nnUNetTrainerMednext4b    cq
+[[ 85   1   0   5  26]
+ [  4  16   0   0   5]
+ [  1   0  29   0   0]
+ [  0   0   0   8   2]
+ [  0   8   1   9 120]]
+

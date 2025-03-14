@@ -1,0 +1,21 @@
+nnUNetTrainerUxLSTMBot    hnnk
+[[10  0  0  0  1]
+ [ 0 10  0  0  0]
+ [ 0  1  3  0  1]
+ [ 0  0  0  2  0]
+ [ 2  5  1  2 19]]
+
+nnUNetTrainerUxLSTMBot    lz
+[[60  7  0  4 15]
+ [ 4 22  0  0  3]
+ [ 0  0 20  0  1]
+ [ 3  0  0  2  0]
+ [ 1 13  0  9 60]]
+
+nnUNetTrainerUxLSTMBot    cq
+[[ 82   4   1   6  23]
+ [  6  15   0   0   4]
+ [  0   0  30   0   0]
+ [  1   1   0   7   2]
+ [  1  18   2  13 102]]
+

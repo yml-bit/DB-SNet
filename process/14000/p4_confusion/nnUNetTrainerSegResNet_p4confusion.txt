@@ -1,0 +1,21 @@
+nnUNetTrainerSegResNet    hnnk
+[[10  0  0  0  1]
+ [ 1  9  0  0  0]
+ [ 0  0  3  0  2]
+ [ 0  0  0  2  0]
+ [ 2  1  0  2 23]]
+
+nnUNetTrainerSegResNet    lz
+[[62  2  0  3 14]
+ [ 7 18  0  0  4]
+ [ 1  0 19  0  1]
+ [ 3  0  0  2  0]
+ [ 1  1  0  6 74]]
+
+nnUNetTrainerSegResNet    cq
+[[ 86   2   0   3  25]
+ [  5  11   1   0   9]
+ [  1   0  27   1   0]
+ [  1   0   1   6   2]
+ [  0   1   1  15 117]]
+

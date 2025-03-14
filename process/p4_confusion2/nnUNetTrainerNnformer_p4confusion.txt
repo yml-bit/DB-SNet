@@ -1,0 +1,21 @@
+nnUNetTrainerNnformer    hnnk
+[[10  0  0  0  1]
+ [ 1  8  0  0  1]
+ [ 0  1  3  0  1]
+ [ 0  0  0  2  0]
+ [ 2  3  1  3 21]]
+
+nnUNetTrainerNnformer    lz
+[[62  4  1  3 13]
+ [ 3 24  0  0  1]
+ [ 0  0 20  0  1]
+ [ 2  0  0  2  1]
+ [ 1 10  2 13 60]]
+
+nnUNetTrainerNnformer    cq
+[[ 81   3   5   4  29]
+ [  5  17   0   0   3]
+ [  0   0  30   0   0]
+ [  0   0   0  10   0]
+ [  0  15   4  15 103]]
+
