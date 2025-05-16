@@ -1,0 +1,6 @@
+/media/bit301/data/yml/data/p3/external/lz/dis/dml/PA19/3.nii.gz
+/media/bit301/data/yml/data/p3/external/cq/dis/dml/PA247/3.nii.gz
+/media/bit301/data/yml/data/p3/external/cq/dis/dml/PA280/3.nii.gz
+/media/bit301/data/yml/data/p3/external/cq/dis/dml/PA12/3.nii.gz
+/media/bit301/data/yml/data/p3/external/lz/dis/dml/PA24/3.nii.gz
+/media/bit301/data/yml/data/p3/external/cq/dis/dml/PA1/3.nii.gz
